@@ -2,3 +2,5 @@
 * Potential bugs: no function overloading!
 * doctest: ...
 * deepcopy / pass by pointer
+* Ruff + mypy
+* Dataclasses
