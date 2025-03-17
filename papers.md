@@ -55,7 +55,7 @@
 * [An asymptotic fully polynomial time approximation scheme for bin covering (Jansen and Solis-Oba, 2003)](https://link.springer.com/chapter/10.1007/3-540-36136-7_16) - ליחיד.
 * [On Bin Packing with Conflicts (Epstein and Levin, 2008)](https://epubs.siam.org/doi/abs/10.1137/060666329) - לזוג.
 * [Bin Packing with Conflicts: A Generic Branch-and-Price Algorithm (Sadykov and Vanderbeck 2012)](https://pubsonline.informs.org/doi/abs/10.1287/ijoc.1120.0499) - לזוג.
-* [Partitioning Problems with Splittings and Interval Targets (Bismuth et al 2024)](https://arxiv.org/abs/2204.11753) - לזוג.
+* [Partitioning Problems with Splittings and Interval Targets (Bismuth et al 2024)](https://arxiv.org/abs/2204.11753) - לזוג (כל האלגוריתמים).
 
 
 
@@ -78,7 +78,8 @@
 * [Leximin Allocations in the Real World (Kurokawa Procaccia and Shah, 2020)](https://www.sciencedirect.com/science/article/pii/S0004370208001495) -  ליחיד (אלגוריתם 2) או לזוג (גם אלגוריתם 3).
 * [Repeated Fair Allocation of Indivisible Items (Igarashi Lackner Nardi Novarro, 2024)](https://ojs.aaai.org/index.php/AAAI/article/view/28837) - ליחיד.
 * [Reducing Leximin Fairness to Utilitarian Optimization (Hartman et al, 2024)](https://arxiv.org/abs/2409.10395) - לזוג.
-
+* [Computational Complexity of the Hylland–Zeckhauser Mechanism for One-Sided Matching Markets (Vazirani and Yannakakis 2025)](https://epubs.siam.org/doi/abs/10.1137/23M157586X) - ליחיד (פרקים 1--4, אלגוריתם 1).
+* [Fair Division with Bounded Sharing: Binary and Non-Degenerate Valuations (Bismuth et al 2024)](https://arxiv.org/abs/1912.00459) - ליחיד (פרק 4).
 
 
 * [Efficient nearly-fair division with capacity constraints (Shoshan et al, 2022)](https://arxiv.org/abs/2205.07779) - ליחיד.
