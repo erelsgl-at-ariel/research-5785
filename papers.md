@@ -18,9 +18,8 @@
 [pabutools](https://github.com/pbvoting/pabutools/issues/21).
 
 * [Proportionally Representative Participatory Budgeting: Axioms and Algorithms (Aziz Lee and Talmon 2017)](https://arxiv.org/abs/1711.08226), [Rey and Maly 2023 Definition 5](https://arxiv.org/abs/2303.00621) - ליחיד (אלגוריתם 1).  אפשר לעשות בזוג יחד עם המאמר הבא.
-* [Efficient, traceable, and numerical error-free implementation of the MMS voting rule (Fernandez 2023)](https://arxiv.org/abs/2309.15104) - ליחיד אפשר לעשות בזוג יחד עם המאמר הקודם. - תפוס (נאור צדוק).
+* [Efficient, traceable, and numerical error-free implementation of the MMS voting rule (Fernandez 2023)](https://arxiv.org/abs/2309.15104) - ליחיד אפשר לעשות בזוג יחד עם המאמר הקודם.
 * [Proportionally Representative Participatory Budgeting with Ordinal Preferences (Aziz and Lee 2020)](https://arxiv.org/abs/1911.00864) - ליחיד (אלגוריתם 1).
-* ~[Participatory Budgeting with Cumulative Votes (Skowron Slinko Szufa and Talmon 2020)](https://arxiv.org/abs/2009.02690) - ליחיד (פרק 5) או לזוג (גם פרק 4).~ - תפוס (אחיה)
 
 
 
@@ -33,10 +32,15 @@
 
 * [Fair integral network flow (Frank and Murota, 2022)](https://arxiv.org/abs/1907.02673) - לזוג.
 * [Dividing a Graphical Cake (Bei and Suksompong, 2019)](https://arxiv.org/pdf/1910.14129.pdf#subsection.4.1) - ליחיד (פרק 4 - מציאת contiguous oriented labeling).
-* ~[Fractional matchings (Bourjolly and Pulleyblank, 1989)](https://www.sciencedirect.com/science/article/pii/0166218X9290273D) - לזוג (או ליחיד בלי פרק 5).~ - תפוס (אוריה צדוק?)
-* ~[Approximability of the Firefighter Problem (Anshelevich, Chakrabarty, Hate and Swamy, 2012)](https://link.springer.com/article/10.1007/s00453-010-9469-y) -  ~ תפוס
-* ~[Solving the Many to Many assignment problem by improving the Kuhn–Munkres algorithm with backtracking (Zhu Liu Zhang Zhu Teng Teng 2016)](https://www.sciencedirect.com/science/article/pii/S0304397516000037) - לזוג.~   תפוס (דור ותום)
+* [Fractional matchings (Bourjolly and Pulleyblank, 1989)](https://www.sciencedirect.com/science/article/pii/0166218X9290273D) - ליחיד (עד פרק 4) או לזוג (עם פרק 5).
 * [Fairness in Routing and Load Balancing (Kleinberg Rabani and Tardos, 2001)](https://www.sciencedirect.com/science/article/pii/S0022000001917520) - ליחיד (פרקים 1--2) או לזוג (גם פרק 3).
+* [Multi-rank smart reserves: A general framework for selection and matching diversity goals (Aziz and Sun 2025)](https://www.sciencedirect.com/science/article/pii/S0004370224002108) - ליחיד (אלגוריתמים 1,3) או לזוג (גם אלגוריתם 4).
+* [Achieving Balanced Representation in School Choice with Diversity Goals (Sun and Yokoo 2025)](https://arxiv.org/abs/2412.13622) - ליחיד (אלגוריתמים 1,2,3) או לזוג (גם אלגוריתמים 4,5).
+* [Independent sets with domination constraints (Halldórsson, Kratochvíl, Telle; 1998)](https://www.sciencedirect.com/science/article/pii/S0166218X99001249)- ליחיד (האלגוריתמים בפרק 3).
+* [Improved Approximation for 3-Dimensional Matching via Bounded Pathwidth Local Search (Cygan, 2013)](https://arxiv.org/abs/1304.1424)- ליחיד או לזוג.
+* [A Fast Parametric Maximum Flow Algorithm and Applications (Gallo Grigoriadis and Tarjan 1989)](https://epubs.siam.org/doi/abs/10.1137/0218003) - לזוג.
+
+
 
 
 
@@ -46,10 +50,13 @@
 [prtpy](https://github.com/coin-or/prtpy).
 
 * [Using dual approximation algorithms for scheduling problems (Hochbaum and Shomys, 1987)](https://doi.org/10.1145/7531.7535) - לזוג (פרקים 1--4, עמודים 1--12)
-* ~[Hybrid recursive number partitioning (Korf, 2011)](https://www.aaai.org/ocs/index.php/IJCAI/IJCAI11/paper/viewPaper/3364) - לזוג.~תפוס
-* ~[Cached iterative weakening (Schreiber and Korf, 2014)](https://ojs.aaai.org/index.php/AAAI/article/view/9122) - ליחיד או לזוג~ - תפוס (איתן ושילה).
+* [Cached iterative weakening (Schreiber and Korf, 2014)](https://ojs.aaai.org/index.php/AAAI/article/view/9122) - ליחיד.
 * [Polynomial time algorithms for minimizing the weighted number of late jobs on a single machine with equal processing times (Baptiste, 1999)](https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1099-1425(199911/12)2:6%3C245::AID-JOS28%3E3.0.CO;2-5) - ליחיד; או לזוג בתוספת המאמר הקצר הזה: https://arxiv.org/pdf/cs/0410046
 * [An asymptotic fully polynomial time approximation scheme for bin covering (Jansen and Solis-Oba, 2003)](https://link.springer.com/chapter/10.1007/3-540-36136-7_16) - ליחיד.
+* [On Bin Packing with Conflicts (Epstein and Levin, 2008)](https://epubs.siam.org/doi/abs/10.1137/060666329) - לזוג.
+* [Bin Packing with Conflicts: A Generic Branch-and-Price Algorithm (Sadykov and Vanderbeck 2012)](https://pubsonline.informs.org/doi/abs/10.1287/ijoc.1120.0499) - לזוג.
+* [Partitioning Problems with Splittings and Interval Targets (Bismuth et al 2024)](https://arxiv.org/abs/2204.11753) - לזוג.
+
 
 
 ##  חלוקה הוגנת של מקומות בקורסים בין סטודנטים
@@ -57,12 +64,6 @@
 האלגוריתמים יכולים להשתלב בספרייה 
 [fairpyx](https://github.com/ariel-research/fairpyx).
 
-* ~[Course Allocation by Proxy Auction (Kominers et al, 2010)](https://link.springer.com/chapter/10.1007/978-3-642-17572-5_49) - ליחיד~ - תפוס (אביהו).
-* ~[Course Match: A Large-Scale Implementation of Approximate Competitive Equilibrium from Equal Incomes for Combinatorial  Allocation (2017)](https://pubsonline.informs.org/doi/10.1287/opre.2016.1544) - לזוג - תפוס (נעמה ובן).~
-* ~[Finding Approximate Competitive Equilibria: Efficient and Fair Course Allocation (2010)](https://dl.acm.org/doi/abs/10.5555/1838206.1838323) - ליחיד~ - תפוס (תהל).
-* ~[Machine Learning-Powered Course Allocation (Soumalias Zamanlooy Weissteiner Seuken, 2022)](https://arxiv.org/abs/2210.00954) - לזוג (דרוש ידע בלמידת מכונה).~ - תפוס (נעמה ובן).
-* ~[Course bidding at business schools (Sonmez and Unver, 2010)](https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1468-2354.2009.00572.x) - ליחיד (האלגוריתם בפרק 5).~ - תפוס (צחי)
-* [The Combinatorial Assignment Problem (Budish, 2011)](https://doi.org/10.1086%2F664613) - לזוג.
 * אפשר למצוא עוד מאמרים בנושא כאן: [Course allocation](https://en.wikipedia.org/wiki/Course_allocation).
 
 
@@ -71,12 +72,13 @@
 האלגוריתמים יכולים להשתלב בספרייה 
 [fairpyx](https://github.com/ariel-research/fairpyx).
 
-* ~[On Achieving Fairness and Stability in Many-to-One Matchings (Narang Biswas and Narahari 2022)](https://arxiv.org/abs/2009.05823) - ליחיד (אלגוריתמים 1,2) או לזוג (גם אלגוריתמים 3,4) או שלשה (גם אלגוריתם 5).~ - תפוס (הדר ויובל). 
-
 * [The Santa Claus Problem (Bansal and Sviridenko 2006)](https://dl.acm.org/doi/pdf/10.1145/1132516.1132522) - ליחיד (פרקים 1--5) או לזוג (גם פרק 6).
-* ~[Santa claus meets hypergraph matchings (Asadpour and Feige and Saberi, 2012)](https://dl.acm.org/doi/abs/10.1145/2229163.2229168) - ליחיד. אפשר לעשות בזוג יחד עם המאמר הבא. ~ תפוס (סלי)
+* [Santa claus meets hypergraph matchings (Asadpour and Feige and Saberi, 2012)](https://dl.acm.org/doi/abs/10.1145/2229163.2229168) - ליחיד. אפשר לעשות בזוג יחד עם המאמר הבא. 
 * [Quasi-Polynomial Local Search for Restricted Max-Min Fair Allocation](https://dl.acm.org/doi/abs/10.1145/2818695) - ליחיד. אפשר לעשות בזוג יחד עם המאמר הקודם.
 * [Leximin Allocations in the Real World (Kurokawa Procaccia and Shah, 2020)](https://www.sciencedirect.com/science/article/pii/S0004370208001495) -  ליחיד (אלגוריתם 2) או לזוג (גם אלגוריתם 3).
+* [Repeated Fair Allocation of Indivisible Items (Igarashi Lackner Nardi Novarro, 2024)](https://ojs.aaai.org/index.php/AAAI/article/view/28837) - ליחיד.
+* [Reducing Leximin Fairness to Utilitarian Optimization (Hartman et al, 2024)](https://arxiv.org/abs/2409.10395) - לזוג.
+
 
 
 * [Efficient nearly-fair division with capacity constraints (Shoshan et al, 2022)](https://arxiv.org/abs/2205.07779) - ליחיד.
@@ -84,10 +86,9 @@
 * [Ordinal Maximin Share Approximation for Chores (Hosseini et al, 2022)](https://arxiv.org/abs/2201.07424) - ליחיד (אלגוריתם 1) או לזוג (גם אלגוריתם 2+3).
 * [Ordinal Maximin Share Approximation for Goods (Hosseini et al, 2022)](https://www.jair.org/index.php/jair/article/view/13317) - ליחיד (אלגוריתם 3) או לזוג (גם אלגוריתם 2+1).
 * [On Worst-Case Allocations in the Presence of Indivisible Goods (Markakis and Psomas, 2011)](https://link.springer.com/chapter/10.1007/978-3-642-25510-6_24) - ליחיד (אלגוריתם 1).
-* [Simplification and Improvement of MMS Approximation (Akrami Garg Sharma Taki 2023)](https://arxiv.org/abs/2303.16788) - לזוג או שלישיה.
+* [Simplification and Improvement of MMS Approximation (Akrami Garg Sharma Taki 2023)](https://arxiv.org/abs/2303.16788) - לזוג.
 * [Proportional division of indivisible items (Brams et al, 2014)](https://mpra.ub.uni-muenchen.de/56587/) - ליחיד.
 * [The Unreasonable Fairness of Maximum Nash Welfare (Caragiannis et al, 2019)](http://eprints.gla.ac.uk/123283/1/123283.pdf) - ליחיד.
-* ~[Maximin-Aware Allocations of Indivisible Goods (Chan et al, 2019)](https://arxiv.org/abs/1905.09969) - ליחיד.~ - תפוס (סוניה).
 * [Beating 1/2 for EFX and GMMS (Amanatidis et al, 2020)](https://doi.org/10.1016%2Fj.tcs.2020.07.006) - ליחיד.
 * [The Virtue of Donating Items (Caragiannis et al, 2019)](https://arxiv.org/abs/1902.04319) - ליחיד.
 * [Approximation Algorithms for Maximin Fair Division (Barman and Krishnamurthy, 2020)](https://dl.acm.org/doi/abs/10.1145/3381525) - ליחיד (אלגוריתמים 1, 2, 5). 
@@ -101,17 +102,14 @@
 * [Almost Envy-Free Allocations with Connected Bundles (Bilo et al, 2018)](https://arxiv.org/abs/1808.09406) - לזוג.
 * [EFX Exists for Three Agents (Chaudhury et al, 2020))](https://arxiv.org/abs/2002.05119) - לזוג.
 * [A Little Charity Guarantees Almost Envy-Freeness (Chaudhury et al, 2020)](https://epubs.siam.org/doi/abs/10.1137/20M1359134) - לזוג.
-* ~[Equitable distribution of indivisible objects (Demko and Hill, 1988)](https://www.sciencedirect.com/science/article/abs/pii/0165489688900479) - לזוג.~ - תפוס (ניב ושירה).
+* [Equitable distribution of indivisible objects (Demko and Hill, 1988)](https://www.sciencedirect.com/science/article/abs/pii/0165489688900479) - לזוג.
 * [Worst case compromises in matroids (Gourvet et al, 2015)](https://www.sciencedirect.com/science/article/pii/S0304397515003722#br0150) - לזוג.
 * [Approximately Fair Allocations of Indivisible Goods (Lipton et al., 2004)](https://dl.acm.org/doi/pdf/10.1145/988772.988792) - ליחיד (משפטים 2.1, 3).
 * [Towards Optimal Subsidy Bounds for Envy-freeable Allocations (Kawase Makino Sumita Tamura Yokoo 2023)](https://arxiv.org/abs/2308.11230)
 * [Fair Division with Subsidy (Halpern and Shah, 2019)](https://link.springer.com/chapter/10.1007/978-3-030-30473-7_25) - לזוג (Proposition 1, Theorem 2, Theorem 5, Proposition 4, Theorem 6, Appendix B).
 * [Computing envy-freeable allocations with limited subsidies (Caragiannis and Ioannidis, 2021)](https://arxiv.org/abs/2002.02789) - ליחיד (פרק 3). 
-* ~[Fair Division under Ordinal Preferences (Bouveret et al, 2010)](https://ebooks.iospress.nl/doi/10.3233/978-1-60750-606-5-387) - ליחיד.~ תפוס
-* ~[On Fair Division under Heterogeneous Matroid Constraints (Dror et al, 2021)](https://arxiv.org/abs/2010.07280)~ - תפוס (עבד).
-* ~[High-Multiplicity Fair Allocation Made More Practical (Bredereck et al, 2021)](https://dl.acm.org/doi/abs/10.5555/3463952.3463988) - לזוג.~  תפוס (אלאור ונאור)
-* ~[Fair allocation of combinations of indivisible goods and chores (Aziz et al, 2018)](https://arxiv.org/abs/1807.10684) - לזוג (אלגוריתמים 1, 2, 3).~ - תפוס (יאיר ורבקה).
-
+* [Fair Division under Ordinal Preferences (Bouveret et al, 2010)](https://ebooks.iospress.nl/doi/10.3233/978-1-60750-606-5-387) - ליחיד.
+* [Proportional Allocation of Indivisible Goods up to the Least Valued Good on Average (Kobayashi and Mahara 2023)](https://arxiv.org/abs/2205.00236) - לזוג.
 
 
 ## בעיות מיטוב (אופטימיזציה)
@@ -130,10 +128,6 @@
 * [SAT-Based Leximax Optimisation Algorithms (Cabral Janota and Manquinho, 2022)] - לזוג (רצוי לאחר קורס ב SAT).
 * [Computing leximin-optimal solutions in constraint networks (Bouveret and Lemaitre, 2009)](https://www.sciencedirect.com/science/article/pii/S0004370208001495) - ליחיד (אלגוריתמים 1,2) או לזוג (גם 3,4) או לשלשה (גם 5).
 
-## אלגוריתמים נוספים:
-* ~[Independent sets with domination constraints (Halldórsson, Kratochvíl, Telle; 1998)](https://www.sciencedirect.com/science/article/pii/S0166218X99001249)- ליחיד או לזוג.~  -תפוס (אור).
-* [Improved Approximation for 3-Dimensional Matching via Bounded Pathwidth Local Search (Cygan, 2013)](https://arxiv.org/abs/1304.1424)- ליחיד או לזוג.
-* [Distributed Algorithms for Matching in Hypergraphs (Hanguir and Stein, 2009)](https://arxiv.org/abs/2009.09605)- ליחיד או לזוג.
 
 
 ## אלגוריתמים מאוניברסיטת אריאל
@@ -162,7 +156,6 @@
 
 מאמרים על  [חלוקת מצולעים](https://en.wikipedia.org/wiki/Polygon_partition):
 
-* ~[Minimum edge length partitioning of rectilinear polygons (Lingas, Pinter, Rivest, Shamir, 1982)](https://people.csail.mit.edu/rivest/pubs/LPRS82.pdf) - ליחיד (פרקים 1--3) ~    תפוס (דביר).
 * [Graph-Theoretic Solutions to Computational Geometry Problems, Eppstein 2009](https://arxiv.org/abs/0908.3916) - לזוג.
 * [Counting Blanks in Polygonal Arrangements (Akopyan and Segal-Halevi, 2018)](https://arxiv.org/abs/1604.00960) - לזוג.
 * [Fast triangulation of simple polygons (Hertel, Mehlhorn, 1985)](https://www.sciencedirect.com/science/article/pii/S0019995885800449) - לזוג.
