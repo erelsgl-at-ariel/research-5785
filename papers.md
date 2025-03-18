@@ -56,15 +56,9 @@
 * [On Bin Packing with Conflicts (Epstein and Levin, 2008)](https://epubs.siam.org/doi/abs/10.1137/060666329) - לזוג.
 * [Bin Packing with Conflicts: A Generic Branch-and-Price Algorithm (Sadykov and Vanderbeck 2012)](https://pubsonline.informs.org/doi/abs/10.1287/ijoc.1120.0499) - לזוג.
 * [Partitioning Problems with Splittings and Interval Targets (Bismuth et al 2024)](https://arxiv.org/abs/2204.11753) - לזוג (כל האלגוריתמים).
+* [ Solution of Bin Packing Instances in Falkenauer T Class: Not So Hard (Dosa Eles Goswami Szalki Tuza 2025)](https://www.mdpi.com/1999-4893/18/2/115) - ליחיד.
 
 
-
-##  חלוקה הוגנת של מקומות בקורסים בין סטודנטים
-
-האלגוריתמים יכולים להשתלב בספרייה 
-[fairpyx](https://github.com/ariel-research/fairpyx).
-
-* אפשר למצוא עוד מאמרים בנושא כאן: [Course allocation](https://en.wikipedia.org/wiki/Course_allocation).
 
 
 ##  חלוקה הוגנת של חפצים
