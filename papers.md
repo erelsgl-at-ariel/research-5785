@@ -77,7 +77,7 @@
 
 
 * [Efficient nearly-fair division with capacity constraints (Shoshan et al, 2022)](https://arxiv.org/abs/2205.07779) - ליחיד.
-* [A reduction from chores allocation to job scheduling (Huang et al, 2023)](https://arxiv.org/abs/2302.04581) - ליחיד (אלגוריתם 1) או לזוג (גם אלגוריתם 4+5).
+* [A reduction from chores allocation to job scheduling (Huang et al, 2023)](https://arxiv.org/abs/2302.04581) - ליחיד (אלגוריתם 1) או לזוג (גם אלגוריתם 4+5).   תפוס (נדב שבתאי )
 * [Ordinal Maximin Share Approximation for Chores (Hosseini et al, 2022)](https://arxiv.org/abs/2201.07424) - ליחיד (אלגוריתם 1) או לזוג (גם אלגוריתם 2+3).
 * [Ordinal Maximin Share Approximation for Goods (Hosseini et al, 2022)](https://www.jair.org/index.php/jair/article/view/13317) - ליחיד (אלגוריתם 3) או לזוג (גם אלגוריתם 2+1).
 * [On Worst-Case Allocations in the Presence of Indivisible Goods (Markakis and Psomas, 2011)](https://link.springer.com/chapter/10.1007/978-3-642-25510-6_24) - ליחיד (אלגוריתם 1).
