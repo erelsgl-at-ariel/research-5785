@@ -66,7 +66,7 @@
 האלגוריתמים יכולים להשתלב בספרייה 
 [fairpyx](https://github.com/ariel-research/fairpyx).
 
-* [The Santa Claus Problem (Bansal and Sviridenko 2006)](https://dl.acm.org/doi/pdf/10.1145/1132516.1132522) - ליחיד (פרקים 1--5) או לזוג (גם פרק 6).
+* ~[The Santa Claus Problem (Bansal and Sviridenko 2006)](https://dl.acm.org/doi/pdf/10.1145/1132516.1132522) - ליחיד (פרקים 1--5) או לזוג (גם פרק 6).~ - תפוס (עדיאל ורועי).
 * [Santa claus meets hypergraph matchings (Asadpour and Feige and Saberi, 2012)](https://dl.acm.org/doi/abs/10.1145/2229163.2229168) - ליחיד. אפשר לעשות בזוג יחד עם המאמר הבא. 
 * [Quasi-Polynomial Local Search for Restricted Max-Min Fair Allocation](https://dl.acm.org/doi/abs/10.1145/2818695) - ליחיד. אפשר לעשות בזוג יחד עם המאמר הקודם.
 * [Leximin Allocations in the Real World (Kurokawa Procaccia and Shah, 2020)](https://www.sciencedirect.com/science/article/pii/S0004370208001495) -  ליחיד (אלגוריתם 2) או לזוג (גם אלגוריתם 3).
@@ -76,7 +76,7 @@
 * [Fair Division with Bounded Sharing: Binary and Non-Degenerate Valuations (Bismuth et al 2024)](https://arxiv.org/abs/1912.00459) - ליחיד (פרק 4).
 
 
-* [Efficient nearly-fair division with capacity constraints (Shoshan et al, 2022)](https://arxiv.org/abs/2205.07779) - ליחיד.
+* ~[Efficient nearly-fair division with capacity constraints (Shoshan et al, 2022)](https://arxiv.org/abs/2205.07779) - ליחיד.~ - תפוס (מתן זיו).
 * [A reduction from chores allocation to job scheduling (Huang et al, 2023)](https://arxiv.org/abs/2302.04581) - ליחיד (אלגוריתם 1) או לזוג (גם אלגוריתם 4+5).   תפוס (נדב שבתאי )
 * [Ordinal Maximin Share Approximation for Chores (Hosseini et al, 2022)](https://arxiv.org/abs/2201.07424) - ליחיד (אלגוריתם 1) או לזוג (גם אלגוריתם 2+3).
 * [Ordinal Maximin Share Approximation for Goods (Hosseini et al, 2022)](https://www.jair.org/index.php/jair/article/view/13317) - ליחיד (אלגוריתם 3) או לזוג (גם אלגוריתם 2+1).
