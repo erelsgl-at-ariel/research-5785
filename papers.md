@@ -82,7 +82,7 @@
 * [Ordinal Maximin Share Approximation for Goods (Hosseini et al, 2022)](https://www.jair.org/index.php/jair/article/view/13317) - ליחיד (אלגוריתם 3) או לזוג (גם אלגוריתם 2+1).
 * [On Worst-Case Allocations in the Presence of Indivisible Goods (Markakis and Psomas, 2011)](https://link.springer.com/chapter/10.1007/978-3-642-25510-6_24) - ליחיד (אלגוריתם 1).
 * [Simplification and Improvement of MMS Approximation (Akrami Garg Sharma Taki 2023)](https://arxiv.org/abs/2303.16788) - לזוג.
-* [Proportional division of indivisible items (Brams et al, 2014)](https://mpra.ub.uni-muenchen.de/56587/) - ליחיד.
+* ~[Proportional division of indivisible items (Brams et al, 2014)](https://mpra.ub.uni-muenchen.de/56587/) - ליחיד.~ - תפוס (אלרואי כרמל )
 * [The Unreasonable Fairness of Maximum Nash Welfare (Caragiannis et al, 2019)](http://eprints.gla.ac.uk/123283/1/123283.pdf) - ליחיד.
 * [Beating 1/2 for EFX and GMMS (Amanatidis et al, 2020)](https://doi.org/10.1016%2Fj.tcs.2020.07.006) - ליחיד.
 * [The Virtue of Donating Items (Caragiannis et al, 2019)](https://arxiv.org/abs/1902.04319) - ליחיד.
