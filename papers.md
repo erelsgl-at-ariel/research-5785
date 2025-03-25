@@ -33,7 +33,7 @@
 * [Fair integral network flow (Frank and Murota, 2022)](https://arxiv.org/abs/1907.02673) - לזוג.
 * [Dividing a Graphical Cake (Bei and Suksompong, 2019)](https://arxiv.org/pdf/1910.14129.pdf#subsection.4.1) - ליחיד (פרק 4 - מציאת contiguous oriented labeling).
 * [Fractional matchings (Bourjolly and Pulleyblank, 1989)](https://www.sciencedirect.com/science/article/pii/0166218X9290273D) - ליחיד (עד פרק 4) או לזוג (עם פרק 5).
-* [Fairness in Routing and Load Balancing (Kleinberg Rabani and Tardos, 2001)](https://www.sciencedirect.com/science/article/pii/S0022000001917520) - ליחיד (פרקים 1--2) או לזוג (גם פרק 3).
+* ~[Fairness in Routing and Load Balancing (Kleinberg Rabani and Tardos, 2001)](https://www.sciencedirect.com/science/article/pii/S0022000001917520) - ליחיד (פרקים 1--2) או לזוג (גם פרק 3).~ - תפוס (מרים נגר).
 * [Multi-rank smart reserves: A general framework for selection and matching diversity goals (Aziz and Sun 2025)](https://www.sciencedirect.com/science/article/pii/S0004370224002108) - ליחיד (אלגוריתמים 1,3) או לזוג (גם אלגוריתם 4).
 * [Achieving Balanced Representation in School Choice with Diversity Goals (Sun and Yokoo 2025)](https://arxiv.org/abs/2412.13622) - ליחיד (אלגוריתמים 1,2,3) או לזוג (גם אלגוריתמים 4,5).
 * [Independent sets with domination constraints (Halldórsson, Kratochvíl, Telle; 1998)](https://www.sciencedirect.com/science/article/pii/S0166218X99001249)- ליחיד (האלגוריתמים בפרק 3).
