@@ -52,8 +52,8 @@
 * [Using dual approximation algorithms for scheduling problems (Hochbaum and Shomys, 1987)](https://doi.org/10.1145/7531.7535) - לזוג (פרקים 1--4, עמודים 1--12)
 * ~[Cached iterative weakening (Schreiber and Korf, 2014)](https://ojs.aaai.org/index.php/AAAI/article/view/9122) - ליחיד.~ - תפוס (לידור בורופקר).
 * [Polynomial time algorithms for minimizing the weighted number of late jobs on a single machine with equal processing times (Baptiste, 1999)](https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1099-1425(199911/12)2:6%3C245::AID-JOS28%3E3.0.CO;2-5) - ליחיד; או לזוג בתוספת המאמר הקצר הזה: https://arxiv.org/pdf/cs/0410046
-* [An asymptotic fully polynomial time approximation scheme for bin covering (Jansen and Solis-Oba, 2003)](https://link.springer.com/chapter/10.1007/3-540-36136-7_16) - ליחיד.
-* ~[On Bin Packing with Conflicts (Epstein and Levin, 2008)](https://epubs.siam.org/doi/abs/10.1137/060666329) - לזוג~ - תפוס (מאי ורותם).
+* ~[An asymptotic fully polynomial time approximation scheme for bin covering (Jansen and Solis-Oba, 2003)](https://link.springer.com/chapter/10.1007/3-540-36136-7_16) - ליחיד.~ - תפוס (רותם מלמד).
+* [On Bin Packing with Conflicts (Epstein and Levin, 2008)](https://epubs.siam.org/doi/abs/10.1137/060666329) - לזוג.
 * [Bin Packing with Conflicts: A Generic Branch-and-Price Algorithm (Sadykov and Vanderbeck 2012)](https://pubsonline.informs.org/doi/abs/10.1287/ijoc.1120.0499) - לזוג.
 * [Partitioning Problems with Splittings and Interval Targets (Bismuth et al 2024)](https://arxiv.org/abs/2204.11753) - לזוג (כל האלגוריתמים).
 * [ Solution of Bin Packing Instances in Falkenauer T Class: Not So Hard (Dosa Eles Goswami Szalki Tuza 2025)](https://www.mdpi.com/1999-4893/18/2/115) - ליחיד.
@@ -67,7 +67,7 @@
 [fairpyx](https://github.com/ariel-research/fairpyx).
 
 * ~[The Santa Claus Problem (Bansal and Sviridenko 2006)](https://dl.acm.org/doi/pdf/10.1145/1132516.1132522) - ליחיד (פרקים 1--5) או לזוג (גם פרק 6).~ - תפוס (עדיאל ורועי).
-* [Santa claus meets hypergraph matchings (Asadpour and Feige and Saberi, 2012)](https://dl.acm.org/doi/abs/10.1145/2229163.2229168) - ליחיד. אפשר לעשות בזוג יחד עם המאמר הבא. 
+* ~[Santa claus meets hypergraph matchings (Asadpour and Feige and Saberi, 2012)](https://dl.acm.org/doi/abs/10.1145/2229163.2229168) - ליחיד. אפשר לעשות בזוג יחד עם המאמר הבא.~ - תפוס (מאי רוזן) 
 * [Quasi-Polynomial Local Search for Restricted Max-Min Fair Allocation](https://dl.acm.org/doi/abs/10.1145/2818695) - ליחיד. אפשר לעשות בזוג יחד עם המאמר הקודם.
 * ~[Leximin Allocations in the Real World (Kurokawa Procaccia and Shah, 2020)](https://www.sciencedirect.com/science/article/pii/S0004370208001495) -  ליחיד (אלגוריתם 2) או לזוג (גם אלגוריתם 3).~ - תפוס (ליאור טרכטמן).
 * ~[Repeated Fair Allocation of Indivisible Items (Igarashi Lackner Nardi Novarro, 2024)](https://ojs.aaai.org/index.php/AAAI/article/view/28837) - ליחיד.~ - תפוס (שקד שוורץ)
