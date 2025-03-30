@@ -36,7 +36,7 @@
 * ~[Fairness in Routing and Load Balancing (Kleinberg Rabani and Tardos, 2001)](https://www.sciencedirect.com/science/article/pii/S0022000001917520) - ליחיד (פרקים 1--2) או לזוג (גם פרק 3).~ - תפוס (מרים נגר).
 * ~[Multi-rank smart reserves: A general framework for selection and matching diversity goals (Aziz and Sun 2025)](https://www.sciencedirect.com/science/article/pii/S0004370224002108) - ליחיד (אלגוריתמים 1,3) או לזוג (גם אלגוריתם 4).~ - תפוס (צבי רכל).
 * [Achieving Balanced Representation in School Choice with Diversity Goals (Sun and Yokoo 2025)](https://arxiv.org/abs/2412.13622) - ליחיד (אלגוריתמים 1,2,3) או לזוג (גם אלגוריתמים 4,5).
-* [Independent sets with domination constraints (Halldórsson, Kratochvíl, Telle; 1998)](https://www.sciencedirect.com/science/article/pii/S0166218X99001249)- ליחיד (האלגוריתמים בפרק 3).
+* ~[Independent sets with domination constraints (Halldórsson, Kratochvíl, Telle; 1998)](https://www.sciencedirect.com/science/article/pii/S0166218X99001249)- ליחיד (האלגוריתמים בפרק 3).~ - תפוס (רואי סיבוני).
 * [Improved Approximation for 3-Dimensional Matching via Bounded Pathwidth Local Search (Cygan, 2013)](https://arxiv.org/abs/1304.1424)- ליחיד או לזוג.
 * [A Fast Parametric Maximum Flow Algorithm and Applications (Gallo Grigoriadis and Tarjan 1989)](https://epubs.siam.org/doi/abs/10.1137/0218003) - לזוג.
 
