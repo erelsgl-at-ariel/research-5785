@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np, matplotlib.pyplot as plt
 
 def solve_with_root(a:np.ndarray, b:np.ndarray):
     # put your code here

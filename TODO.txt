@@ -1,6 +1,15 @@
-* seaborn
+Basics:
 * Potential bugs: no function overloading!
-* doctest: ...
+* doctest: three dots (...)
 * deepcopy / pass by pointer
+
+Numstack:
+* flow in networkx
+
+Databases:
+* seaborn
+
+Development:
+* Linters
 * Ruff + mypy
 * Dataclasses
