@@ -32,11 +32,11 @@
 
 * [Fair integral network flow (Frank and Murota, 2022)](https://arxiv.org/abs/1907.02673) - לזוג.
 * ~[Dividing a Graphical Cake (Bei and Suksompong, 2019)](https://arxiv.org/pdf/1910.14129.pdf#subsection.4.1) - ליחיד (פרק 4 - מציאת contiguous oriented labeling).~ - תפוס (גייה סרחאן).
-* [Fractional matchings (Bourjolly and Pulleyblank, 1989)](https://www.sciencedirect.com/science/article/pii/0166218X9290273D) - ליחיד (עד פרק 4) או לזוג (עם פרק 5).
+* ~[Fractional matchings (Bourjolly and Pulleyblank, 1989)](https://www.sciencedirect.com/science/article/pii/0166218X9290273D) - ליחיד (עד פרק 4) או לזוג (עם פרק 5).~ - תפוס (רואי סיבוני).
 * [Fairness in Routing and Load Balancing (Kleinberg Rabani and Tardos, 2001)](https://www.sciencedirect.com/science/article/pii/S0022000001917520) - ליחיד (פרקים 1--2) או לזוג (גם פרק 3). - תפוס .
 * ~[Multi-rank smart reserves: A general framework for selection and matching diversity goals (Aziz and Sun 2025)](https://www.sciencedirect.com/science/article/pii/S0004370224002108) - ליחיד (אלגוריתמים 1,3) או לזוג (גם אלגוריתם 4).~ - תפוס (צבי רכל).
 * [Achieving Balanced Representation in School Choice with Diversity Goals (Sun and Yokoo 2025)](https://arxiv.org/abs/2412.13622) - ליחיד (אלגוריתמים 1,2,3) או לזוג (גם אלגוריתמים 4,5).
-* ~[Independent sets with domination constraints (Halldórsson, Kratochvíl, Telle; 1998)](https://www.sciencedirect.com/science/article/pii/S0166218X99001249)- ליחיד (האלגוריתמים בפרק 3).~ - תפוס (רואי סיבוני).
+* ~[Independent sets with domination constraints (Halldórsson, Kratochvíl, Telle; 1998)](https://www.sciencedirect.com/science/article/pii/S0166218X99001249)- ליחיד (האלגוריתמים בפרק 3).~ - תפוס (ג'מיל יעקוב).
 * [Improved Approximation for 3-Dimensional Matching via Bounded Pathwidth Local Search (Cygan, 2013)](https://arxiv.org/abs/1304.1424)- ליחיד או לזוג.
 * [A Fast Parametric Maximum Flow Algorithm and Applications (Gallo Grigoriadis and Tarjan 1989)](https://epubs.siam.org/doi/abs/10.1137/0218003) - לזוג.
 
@@ -80,8 +80,8 @@
 * [A reduction from chores allocation to job scheduling (Huang et al, 2023)](https://arxiv.org/abs/2302.04581) - ליחיד (אלגוריתם 1) או לזוג (גם אלגוריתם 4+5).   תפוס (נדב שבתאי )
 * [Ordinal Maximin Share Approximation for Chores (Hosseini et al, 2022)](https://arxiv.org/abs/2201.07424) - ליחיד (אלגוריתם 1) או לזוג (גם אלגוריתם 2+3).
 * [Ordinal Maximin Share Approximation for Goods (Hosseini et al, 2022)](https://www.jair.org/index.php/jair/article/view/13317) - ליחיד (אלגוריתם 3) או לזוג (גם אלגוריתם 2+1).
-* [On Worst-Case Allocations in the Presence of Indivisible Goods (Markakis and Psomas, 2011)](https://link.springer.com/chapter/10.1007/978-3-642-25510-6_24) - ליחיד (אלגוריתם 1).
-* [Simplification and Improvement of MMS Approximation (Akrami Garg Sharma Taki 2023)](https://arxiv.org/abs/2303.16788) - לזוג.
+* ~[On Worst-Case Allocations in the Presence of Indivisible Goods (Markakis and Psomas, 2011)](https://link.springer.com/chapter/10.1007/978-3-642-25510-6_24) - ליחיד (אלגוריתם 1).~ - תפוס (אברהים חוראני).
+* ~[Simplification and Improvement of MMS Approximation (Akrami Garg Sharma Taki 2023)](https://arxiv.org/abs/2303.16788) - לזוג.~ - תפוס (מיכאל ונטלי).
 * ~[Proportional division of indivisible items (Brams et al, 2014)](https://mpra.ub.uni-muenchen.de/56587/) - ליחיד.~ - תפוס (אלרואי כרמל )
 * [The Unreasonable Fairness of Maximum Nash Welfare (Caragiannis et al, 2019)](http://eprints.gla.ac.uk/123283/1/123283.pdf) - ליחיד.
 * [Beating 1/2 for EFX and GMMS (Amanatidis et al, 2020)](https://doi.org/10.1016%2Fj.tcs.2020.07.006) - ליחיד.
@@ -116,6 +116,7 @@
 
 
 * [On Direct Methods for Lexicographic Min-Max Optimization (Ogryczak and Sliwinski, 2006)](https://link.springer.com/chapter/10.1007/11751595_85) - ליחיד.
+[אליסף קופל?]
 * [Equitable resource allocation - a lexicographic minimax approach (Luss, 1999)](https://pubsonline.informs.org/doi/abs/10.1287/opre.47.3.361) - ליחיד (פרקים 1--2) או לזוג (גם פרק 3).
 * [Improved optimal solutions to max-min flexible constraint satisfaction (Dubois and Fortemps, 1999)](https://www-sciencedirect-com.mgs.ariel.ac.il/science/article/pii/S0377221798003075) - ליחיד או לזוג.
 * [The Sortedness and the Alldifferent Constraint (Mehlhorn and Thiel, 2000)](https://link.springer.com/chapter/10.1007/3-540-45349-0_23) - ליחיד או לזוג.
