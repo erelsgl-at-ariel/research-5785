@@ -6,7 +6,6 @@ Since:  2022-02
 """
 
 from abc import ABC, abstractmethod
-from typing import Any, Callable
 
 
 class Bins(ABC):
@@ -18,16 +17,16 @@ class Bins(ABC):
         self.num = numbins
         self.valueof = lambda x: x
 
-    def set_valueof(self, new_valueof: Callable):
-        self.valueof = new_valueof
-
     @abstractmethod
     def add_item_to_bin(self, item: float, bin_index: int):
         pass
 
     @abstractmethod
-    def result(self):
+    def result(self)->any:
         return None
+
+    def set_valueof(self, new_valueof: callable):
+        self.valueof = new_valueof
 
 
 class BinsKeepingSums(Bins):
@@ -42,7 +41,7 @@ class BinsKeepingSums(Bins):
     def add_item_to_bin(self, item: float, bin_index: int):
         self.sums[bin_index] += self.valueof(item)
 
-    def result(self):
+    def result(self)->any:
         return self.sums
 
 class BinsKeepingContents(BinsKeepingSums):
@@ -58,7 +57,7 @@ class BinsKeepingContents(BinsKeepingSums):
         super().add_item_to_bin(item, bin_index)
         self.bins[bin_index].append(item)
 
-    def result(self):
+    def result(self)->any:
         return self.bins
 
 

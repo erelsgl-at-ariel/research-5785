@@ -5,10 +5,7 @@ Author: Erel Segal-Halevi
 Since: 2022-03
 """
 
-from typing import Callable, Any
-
-
-def partition(algorithm: Callable, numbins: int, items: Any):
+def partition(algorithm: callable, numbins: int, items: any, **kwargs):
     """
     >>> partition(algorithm=roundrobin, numbins=2, items=[1,2,3,3,5,9,9])
     [[9, 5, 3, 1], [9, 3, 2]]
@@ -36,10 +33,10 @@ def partition(algorithm: Callable, numbins: int, items: Any):
     else:  # items is a list
         item_names = items
         valueof = lambda item: item
-    return algorithm(numbins, item_names, valueof)
+    return algorithm(numbins, item_names, valueof, **kwargs)
 
 
-def roundrobin(numbins: int, item_names: list, valueof: Callable[[Any], float] = lambda x:x):
+def roundrobin(numbins: int, item_names: list, valueof: callable = lambda x:x):
     """
     Partition the given items using the round-robin algorithm.
     >>> roundrobin(numbins=2, item_names=[1,2,3,3,5,9,9])
@@ -55,7 +52,7 @@ def roundrobin(numbins: int, item_names: list, valueof: Callable[[Any], float] =
     return bins
 
 
-def greedy(numbins: int, item_names: list, valueof: Callable[[Any], float] = lambda x:x):
+def greedy(numbins: int, item_names: list, valueof: callable = lambda x:x):
     """
     Partition the given items using the greedy number partitioning algorithm.
 

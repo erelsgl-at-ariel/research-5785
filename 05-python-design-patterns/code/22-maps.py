@@ -5,9 +5,8 @@ Author: Erel Segal-Halevi
 Since: 2022-03
 """
 
-from typing import Dict
 
-def roundrobin(numbins: int, items):
+def roundrobin(numbins: int, items: list|dict):
     """
     Partition the given items using the round-robin algorithm.
 

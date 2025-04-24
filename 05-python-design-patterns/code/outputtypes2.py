@@ -5,21 +5,20 @@ For file 50-FlyWeight.
 """
 
 from abc import ABC
-from typing import Any, List, Callable
 from binners import *
 
-BinsArray = Any
+BinsArray = any
 
 class OutputType(ABC):
     @classmethod
-    def create_binner(cls, valueof: Callable) -> Binner:
+    def create_binner(cls, valueof: callable) -> Binner:
         """
         Construct and return a Bins structure. Used at the initialization phase of an algorithm.
         """
         raise NotImplementedError("Choose a specific output type")
 
     @classmethod
-    def extract_output_from_binsarray(cls, bins: BinsArray) -> List:
+    def extract_output_from_binsarray(cls, bins: BinsArray) -> list:
         """
         Return the required output from the given bins-array.
         """
@@ -29,15 +28,15 @@ class OutputType(ABC):
 class Sums(OutputType):
     """ Output the list of sums of all bins (but not the bins' contents).  """
     @classmethod
-    def create_binner(cls, valueof: Callable) -> List:
+    def create_binner(cls, valueof: callable) -> list:
         return BinnerKeepingSums(valueof)
 
     @classmethod
-    def extract_output_from_sums(cls, sums: List[float]) -> List:
+    def extract_output_from_sums(cls, sums: list[float]) -> list:
         return list(sums)
 
     @classmethod
-    def extract_output_from_binsarray(cls, bins: BinsArray) -> List:
+    def extract_output_from_binsarray(cls, bins: BinsArray) -> list:
         try:
             bins[0][0]           # If it succeeds, it means that bins is a tuple (sums,lists).
             sums = bins[0]
@@ -49,25 +48,25 @@ class Sums(OutputType):
 class LargestSum(Sums):
     """ Output the largest bin sum. """
     @classmethod
-    def extract_output_from_sums(cls, sums: List[float]) -> List:
+    def extract_output_from_sums(cls, sums: list[float]) -> list:
         return max(sums)
 
 class SmallestSum(Sums):
     """ Output the smallest bin sum. """
     @classmethod
-    def extract_output_from_sums(cls, sums: List[float]) -> List:
+    def extract_output_from_sums(cls, sums: list[float]) -> list:
         return min(sums)
 
 class SortedSums(Sums):
     """ Output the sums sorted from small to large. """
     @classmethod
-    def extract_output_from_sums(cls, sums: List[float]) -> List:
+    def extract_output_from_sums(cls, sums: list[float]) -> list:
         return sorted(sums)
 
 class Difference(Sums):
     """ Output the difference between largest and smallest sum. """
     @classmethod
-    def extract_output_from_sums(cls, sums: List[float]) -> List:
+    def extract_output_from_sums(cls, sums: list[float]) -> list:
         return max(sums)-min(sums)
 
 
@@ -81,15 +80,15 @@ class Partition(OutputType):
     """ Output the set of all bins. """
 
     @classmethod
-    def create_binner(cls, valueof: Callable) -> List:
+    def create_binner(cls, valueof: callable) -> list:
         return BinnerKeepingContents(valueof)
 
     @classmethod
-    def extract_output_from_sums_and_lists(cls, sums: List[float], lists: List[List[Any]]) -> List:
+    def extract_output_from_sums_and_lists(cls, sums: list[float], lists: list[list[any]]) -> list:
         return lists
 
     @classmethod
-    def extract_output_from_binsarray(cls, bins: BinsArray) -> List:
+    def extract_output_from_binsarray(cls, bins: BinsArray) -> list:
         return cls.extract_output_from_sums_and_lists(bins[0], bins[1])
 
 
@@ -99,7 +98,7 @@ class PartitionAndSumsTuple(Partition):
     sums is a vector of bin sums; lists is a vector of lists of items in each bin. 
     """
     @classmethod
-    def extract_output_from_sums_and_lists(cls, sums: List[float], lists: List[List[Any]]) -> List:
+    def extract_output_from_sums_and_lists(cls, sums: list[float], lists: list[list[any]]) -> list:
         return (sums,lists)
 
 
@@ -117,6 +116,6 @@ class PartitionAndSums(Partition):
             bins_str = [f"Bin #{i}: {self.lists[i]}, sum={self.sums[i]}" for i in range(len(self.sums))]
             return "\n".join(bins_str)
     @classmethod
-    def extract_output_from_sums_and_lists(cls, sums: List[float], lists: List[List[Any]]) -> List:
+    def extract_output_from_sums_and_lists(cls, sums: list[float], lists: list[list[any]]) -> list:
         return PartitionAndSums.Struct(sums,lists)
 

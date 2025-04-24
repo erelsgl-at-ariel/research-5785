@@ -5,9 +5,7 @@ Author: Erel Segal-Halevi
 Since: 2022-03
 """
 
-from typing import List
-
-def roundrobin_partition(numbins: int, items: List[float]):
+def roundrobin_partition(numbins: int, items: list[float]):
     """
     Partition the given items using the round-robin algorithm.
 
@@ -24,7 +22,7 @@ def roundrobin_partition(numbins: int, items: List[float]):
     return bins
 
 
-def roundrobin_sums(numbins: int, items: List[float]):
+def roundrobin_sums(numbins: int, items: list[float]):
     """
     Partition the given items using the round-robin algorithm.
 
@@ -41,7 +39,7 @@ def roundrobin_sums(numbins: int, items: List[float]):
     return sums
 
 
-def greedy_partition(numbins: int, items: List[float]):
+def greedy_partition(numbins: int, items: list[float]):
     """
     Partition the given items using the greedy number partitioning algorithm.
     Return the partition.
@@ -57,7 +55,7 @@ def greedy_partition(numbins: int, items: List[float]):
         bins[index_of_least_full_bin].append(item)
     return bins
 
-def greedy_partition_2(numbins: int, items: List[float]):
+def greedy_partition_2(numbins: int, items: list[float]):
     """
     Partition the given items using the greedy number partitioning algorithm.
     Return the partition.
@@ -77,7 +75,7 @@ def greedy_partition_2(numbins: int, items: List[float]):
     return bins
 
 
-def greedy_sums(numbins: int, items: List[float]):
+def greedy_sums(numbins: int, items: list[float]):
     """
     Partition the given items using the greedy number partitioning algorithm.
     Return the sums.

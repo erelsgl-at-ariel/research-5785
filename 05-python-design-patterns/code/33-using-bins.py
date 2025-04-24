@@ -6,10 +6,9 @@ Since: 2022-03
 """
 
 from bins import *
-from typing import List
 
 
-def roundrobin(bins: Bins, items: List[float]):
+def roundrobin(bins: Bins, items: list[float]):
     """
     Partition the given items using the round-robin algorithm.
 
@@ -25,7 +24,7 @@ def roundrobin(bins: Bins, items: List[float]):
     return bins
 
 
-def greedy(bins: Bins, items: List[float]):
+def greedy(bins: Bins, items: list[float]):
     """
     Partition the given items using the greedy number partitioning algorithm.
     Return the partition.
