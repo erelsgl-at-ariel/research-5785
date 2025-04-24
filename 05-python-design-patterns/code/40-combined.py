@@ -87,7 +87,7 @@ def greedy(bins: Bins, item_names: list):
 
 import numpy as np
 
-def partition_random_items(numitems: int, bitsperitem: int, **kwargs):
+def partition_random_items(algorithm:callable, numitems: int, bitsperitem: int, **kwargs):
     """
     Generates a uniformly-random list of items and partitions them using the given algorithm.
     :param numitems: how many items to generate.
@@ -97,7 +97,7 @@ def partition_random_items(numitems: int, bitsperitem: int, **kwargs):
     [..., ...]
     """
     items = np.random.randint(1, 2**bitsperitem-1, numitems)
-    return partition(items=items, **kwargs)
+    return partition(algorithm, items=items, **kwargs)
 
 
 

@@ -2,7 +2,7 @@ import logging
 logger = logging.getLogger("quadratic")
 
 # logging.basicConfig(level=logging.DEBUG)  # Don't do it!
-
+# 
 # Example function
 def quadratic_formula(a:float, b:float ,c:float) -> float:
     """ Returns the real solutions to the equation ax^2 + bx + c = 0  """

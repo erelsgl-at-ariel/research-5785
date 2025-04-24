@@ -18,7 +18,7 @@ class Bins(ABC):
         self.valueof = lambda x: x
 
     @abstractmethod
-    def add_item_to_bin(self, item: float, bin_index: int):
+    def add_item_to_bin(self, item: any, bin_index: int):
         pass
 
     @abstractmethod
