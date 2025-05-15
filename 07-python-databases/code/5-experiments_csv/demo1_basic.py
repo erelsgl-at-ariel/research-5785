@@ -8,7 +8,7 @@ ex = experiments_csv.Experiment("results/", "demo1.csv")
 ex.logger.setLevel(logging.INFO) # Show every individual experiment arguments + results.
 
 
-def add_three_numbers(x, y, z):
+def add_three_numbers(x, y, z) -> dict:
     # This is a dummy example of a function for running an "experiment".
     # Note that it must return a dict.
     return {
