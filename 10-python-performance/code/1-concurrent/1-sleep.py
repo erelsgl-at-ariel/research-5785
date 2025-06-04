@@ -13,21 +13,21 @@ def sequential():
     start = time.perf_counter()
     do_something(1)
     do_something(2)
-    print(f"Sequential: time={time.perf_counter()-start} sec")
+    print(f"Sequential: time={time.perf_counter()-start} sec\n")
 
 def threads():
     start = time.perf_counter()
     with concurrent.futures.ThreadPoolExecutor(max_workers=WORKERS) as executor:
         executor.submit(do_something, 1)
         executor.submit(do_something, index=2)
-    print(f"{WORKERS} threads: time={time.perf_counter()-start} sec")
+    print(f"{WORKERS} threads: time={time.perf_counter()-start} sec\n")
 
 def processes():
     start = time.perf_counter()
     with concurrent.futures.ProcessPoolExecutor(max_workers=WORKERS) as executor:
         executor.submit(do_something, index=1)
         executor.submit(do_something, 2)
-    print(f"{WORKERS} processes: time={time.perf_counter()-start} sec")
+    print(f"{WORKERS} processes: time={time.perf_counter()-start} sec\n")
 
 
 if __name__ == '__main__':
