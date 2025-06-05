@@ -1,5 +1,4 @@
 # Here, we import the forms, since they are used for routing.
-# We also add routing to the registration and the login pages.
 
 from flask import render_template, url_for, flash, redirect
 from flask_example import app

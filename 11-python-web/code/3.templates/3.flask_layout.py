@@ -4,7 +4,7 @@ app = Flask(__name__)
 import dotenv, os
 dotenv.load_dotenv()  # load FLASK_RUN_PORT
 
-users = [
+users_from_database = [
     {'name': 'Joee Javany',
     'email': 'joo@example.com',
     'phone': '111-1111'},
@@ -18,9 +18,7 @@ users = [
 
 @app.route('/')
 def hello_world():
-    return render_template('layoutdynamic.html' , users = users, head = "Moriya")
+    return render_template('layoutdynamic.html' , users=users_from_database, head="The Users")
 
 if __name__ == '__main__':
     app.run(debug=True, port=os.getenv("FLASK_RUN_PORT"))
-
-

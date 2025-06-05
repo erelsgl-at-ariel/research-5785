@@ -4,7 +4,7 @@ app = Flask(__name__)
 import dotenv, os
 dotenv.load_dotenv()  # load FLASK_RUN_PORT
 
-users = [   # Simulates reading from database.
+users_from_database = [   # Simulates reading from database.
     {'name': 'Joee Javany',
     'email': 'joo@example.com',
     'phone': '111-1111'},
@@ -21,7 +21,7 @@ users = [   # Simulates reading from database.
 
 @app.route('/')
 def hello_world():
-    return render_template('homedynamic.html', users=users)
+    return render_template('homedynamic.html', users=users_from_database)
 
 if __name__ == '__main__':
     app.run(debug=True, port=os.getenv("FLASK_RUN_PORT"))

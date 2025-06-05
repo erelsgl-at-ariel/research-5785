@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Home Page</title>
+    <title>Animation example</title>
 </head>
 
 <body>
@@ -46,7 +46,7 @@
         setInterval(function() {
             slides[current].style.display = 'none';
             current = (current + 1) % slides.length;
-            slides[current].style.display = '';
+            slides[current].style.display = 'block';
         }, 100); // Time between slides in milliseconds
       </script>
 </body>
