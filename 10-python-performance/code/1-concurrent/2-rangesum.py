@@ -25,8 +25,9 @@ def threads():
          ]
     with concurrent.futures.ThreadPoolExecutor(max_workers=WORKERS) as executor:
         partial_results = executor.map(sum_list, parts)
-        big_sum = sum(partial_results)
-    print(f"{WORKERS} threads: sum={big_sum}, time={time.perf_counter()-start} sec")
+        pr = list(partial_results)
+        big_sum = sum(pr)
+    print(f"{WORKERS} threads: partial_results={pr}, sum={big_sum}, time={time.perf_counter()-start} sec")
 
 def processes():
     start = time.perf_counter()
@@ -38,8 +39,9 @@ def processes():
          ]
     with concurrent.futures.ProcessPoolExecutor(max_workers=WORKERS) as executor:
         partial_results = executor.map(sum_list, parts)
-        big_sum = sum(partial_results)
-    print(f"{WORKERS} processes: sum={big_sum}, time={time.perf_counter()-start} sec")
+        pr = list(partial_results)
+        big_sum = sum(pr)
+    print(f"{WORKERS} processes: partial_results={pr}, sum={big_sum}, time={time.perf_counter()-start} sec")
 
 
 if __name__ == '__main__':

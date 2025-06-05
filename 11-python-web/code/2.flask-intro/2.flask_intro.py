@@ -7,7 +7,7 @@ dotenv.load_dotenv()
 @app.route('/')
 def hello_world():
     return '''
-        <h1>Hello World!</h1>
+        <h1>Hello World!!!</h1>
         <p><a href="/about">About the site</a>
         <p><button onclick='window.location.href="/about"'>About the site</button>
         '''

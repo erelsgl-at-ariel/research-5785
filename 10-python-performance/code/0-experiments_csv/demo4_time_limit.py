@@ -11,7 +11,7 @@ def adder(x, y):
 import experiments_csv, logging
 ex = experiments_csv.Experiment("results/", "demo4.csv", backup_folder="results/backups")
 ex.logger.setLevel(logging.DEBUG)
-# ex.clear_previous_results()
+ex.clear_previous_results()
 
 input_ranges = {
     "x": [1,2,3],

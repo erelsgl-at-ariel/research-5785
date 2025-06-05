@@ -8,7 +8,6 @@ def do_something(index):
     print(f"End {index}")
     return 0
 
-
 def sequential():
     start = time.perf_counter()
     do_something(1)
