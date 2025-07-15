@@ -13,3 +13,6 @@ Development:
 * Linters
 * Ruff + mypy
 * Dataclasses
+
+Web:
+* Random input example
